@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SrE5x6ASGxm77UJMHFkuev5PCDdlmGmu+JAMhZ6UVB4=",
+  "Source": "BlobService",
+  "BasePath": "_content/BlobService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

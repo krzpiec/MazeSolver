@@ -1,0 +1,11 @@
+<div class="container">
+    <mat-form-field appearance="fill">
+        <mat-label>Choose algorithm</mat-label>
+        <mat-select [(ngModel)]="selectedValue" name="selectedAlgorithm">
+          <mat-option *ngFor="let alg of algorithms" [value]="alg">
+            {{alg}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button color ="primary" (click)="solveMaze()">Solve maze</button>  
+</div>

@@ -1,0 +1,41 @@
+<div class="maze-container">
+    <div class="maze-control-panel">
+        <button mat-raised-button class="btn-generate btn-maze-control" (click)="openMazeGenerationModal()">
+            Generate maze
+            <mat-icon>engineering</mat-icon>
+        </button>
+        <button mat-raised-button class="btn-solve btn-maze-control" (click)="openSolveMazeModal()">
+            Solve maze
+            <mat-icon svgIcon="maze-solve" class="svg"></mat-icon>
+        </button>
+    </div>
+
+    <div class="maze-control">
+        <div class="maze">
+            <canvas #mazeCanvas width="1500" height="600"></canvas>
+        </div>
+    
+        <div class="position-picker">
+            <mat-form-field class="generate-form">
+                <mat-label>Start X</mat-label>
+                <input matInput type="number" [(ngModel)]="startX">
+             </mat-form-field>
+             <mat-form-field class="generate-form">
+                <mat-label>Start Y</mat-label>
+                <input matInput type="number" [(ngModel)]="startY">
+             </mat-form-field>
+             <mat-form-field class="generate-form">
+                <mat-label>End X</mat-label>
+                <input matInput type="number" [(ngModel)]="endX">
+             </mat-form-field>
+             <mat-form-field class="generate-form">
+                <mat-label>End Y</mat-label>
+                <input matInput type="number" [(ngModel)]="endY">
+             </mat-form-field>
+             <button mat-raised-button color ="accent" (click) ="setPositions()"> Set positions </button>
+        
+    </div>
+
+    
+    
+</div>

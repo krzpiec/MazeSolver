@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "85ba5F+LOxjMZmO0PXt1MiGxTgfRvxKiIN6Oe0TpVpQ=",
+  "Source": "MazeGenService",
+  "BasePath": "_content/MazeGenService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
