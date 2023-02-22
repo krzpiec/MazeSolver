@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZeOqKGuFFkq6871PcMYMyWk7LyXDfui4rensZR9bAI0PtZzXODsXjGrTEW9z/kSbRVwDS4cln+aSh8Cs9cvJ5w==",
+  "dgSpecHash": "EVTn7nhYefFos7CITv02hGf7gN6OkVd1/NaOKUsd9m2/BMtOluBXysE29ygDy7ICat6o36SOd/oPuO1Z/lSi1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\BlobService\\BlobService.csproj",
+  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\BlobService\\BlobService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kpieczynski\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kpieczynski\\.nuget\\packages\\azure.storage.blobs\\12.14.1\\azure.storage.blobs.12.14.1.nupkg.sha512",

@@ -1,0 +1,18 @@
+version : '1'
+services:
+  blob-service:
+    image: blobservice:latest
+    ports:
+      - "5268:80"
+  maze-gen:
+    image: mazegen:latest
+    ports:
+      - "5049:80"
+  maze-solve:
+    image: mazesolve:latest
+    ports:
+      - "5095:80"
+  maze-service:
+    image: mazeservice:latest
+    ports:
+      - "5206:80"

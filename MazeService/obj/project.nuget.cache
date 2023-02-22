@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EwDSXQnuX9raP5tlzc41fruKpMAq7gVNPpLl8/nrIyGbg8z1mAiyKMjhnlH54fkb+XC7dzUqXuhvZAAuWSak8w==",
+  "dgSpecHash": "JOVItY9mzYItK65ADGIWTJGnAXx7mxrJiCHzzAnyMVm2tWr0qyC+i3ocvL9N2J5f/1f04Cm3NLxWW4PawvUe9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeService\\MazeService.csproj",
+  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeService\\MazeService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kpieczynski\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\kpieczynski\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

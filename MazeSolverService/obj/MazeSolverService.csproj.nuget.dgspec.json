@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeSolverService\\MazeSolverService.csproj": {}
+    "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeSolverService\\MazeSolverService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeSolverService\\MazeSolverService.csproj": {
+    "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeSolverService\\MazeSolverService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeSolverService\\MazeSolverService.csproj",
+        "projectUniqueName": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeSolverService\\MazeSolverService.csproj",
         "projectName": "MazeSolverService",
-        "projectPath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeSolverService\\MazeSolverService.csproj",
+        "projectPath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeSolverService\\MazeSolverService.csproj",
         "packagesPath": "C:\\Users\\kpieczynski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeSolverService\\obj\\",
+        "outputPath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeSolverService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kpieczynski\\AppData\\Roaming\\NuGet\\NuGet.Config",

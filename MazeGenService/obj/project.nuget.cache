@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QaERR1Pda0k3JRglCkrp8WnGBV6QF1EhP0Bjh+lhXSHrrdD0DLmk2E/5Ppd+4eXtnwM7G9wXXv4RLJqb+rgQxQ==",
+  "dgSpecHash": "QW9uFW+OLdrgZ96RAlWjvJzWl0OKbMGrY+Ye3bKmFzAJSlxHcNHsTCPM59V4IeYzXZp8bRB+qmAWXomGi1y/ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\MazeGenService\\MazeGenService.csproj",
+  "projectFilePath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\MazeGenService\\MazeGenService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kpieczynski\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\kpieczynski\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

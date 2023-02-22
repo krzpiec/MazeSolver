@@ -17,16 +17,11 @@ Console.WriteLine("tutaj");
 builder.Services.AddHttpClient<IBlobStorageClient, HttpBlobStorageDataClient>();
 builder.Services.AddHttpClient<IMazeGenDataClient, HttpMazeGenDataClient>();
 builder.Services.AddHttpClient<IMazeSolveDataClient, HttpMazeSolveDataClient>();
-if (builder.Environment.IsProduction())
-{
-    builder.Services.AddDbContext<AppDbContext>(options =>
-     options.UseSqlServer(builder.Configuration.GetConnectionString("MazeConnection")));
-}
-else
-{
-    Console.WriteLine("USING IN MEMORY DATABASE");
-    builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMem"));
-}
+
+
+Console.WriteLine("USING IN MEMORY DATABASE");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMem"));
+
 
 var app = builder.Build();
 
@@ -43,6 +38,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-PrepDb.PrepPopulation(app, app.Environment.IsProduction());
+PrepDb.PrepPopulation(app);
 
 app.Run();

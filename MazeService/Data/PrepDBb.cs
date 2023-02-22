@@ -5,30 +5,16 @@ namespace MazeService.Data
 {
     public static class PrepDb
     {
-        public static void PrepPopulation(IApplicationBuilder app, bool isProd)
+        public static void PrepPopulation(IApplicationBuilder app)
         {
             using(var serviceScope = app.ApplicationServices.CreateScope())
             {
-                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>(), isProd);
+                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>());
             }
         }
 
-        private static void SeedData(AppDbContext context, bool isProd)
+        private static void SeedData(AppDbContext context)
         {
-            if(isProd)
-            {
-                Console.WriteLine("Attempting migration");
-                try
-                {
-                    context.Database.Migrate();
-                }
-                catch(Exception ex)
-                {
-                    Console.WriteLine($"Migration failed {ex.Message}");
-                }
-               
-            }
-
             if(!context.Mazes.Any())
             {
                 Console.WriteLine("Seeding");

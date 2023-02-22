@@ -900,11 +900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\BlobService\\BlobService.csproj",
+      "projectUniqueName": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\BlobService\\BlobService.csproj",
       "projectName": "BlobService",
-      "projectPath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\BlobService\\BlobService.csproj",
+      "projectPath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\BlobService\\BlobService.csproj",
       "packagesPath": "C:\\Users\\kpieczynski\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kpieczynski\\Desktop\\DotNetProjekt\\BlobService\\obj\\",
+      "outputPath": "C:\\Users\\kpieczynski\\Desktop\\dotnetMazeGit\\MazeSolver\\BlobService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kpieczynski\\AppData\\Roaming\\NuGet\\NuGet.Config",
