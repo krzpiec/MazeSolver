@@ -27,7 +27,8 @@ Application is based on microservice architecture. Mazes are stored as blob file
 Architecture diagram:
 ![plot](./readMeResources/dotnetSchemat.PNG)
 MySql database stores only base information about maze like: it's name or description. Actual maze is stored in a blob file as json file. Example file of 3x3 maze:
-'''    [
+''' 
+   [
       {
         "walls": 1011
       },
@@ -60,7 +61,8 @@ MySql database stores only base information about maze like: it's name or descri
         "walls": 1110
       }
     ]
-  ]'''
+  ]
+  '''
 each value is cell with walls: up, right, down and left saved as integer. This helps to compress the size of the file and http requests.
 
 #### Author:
